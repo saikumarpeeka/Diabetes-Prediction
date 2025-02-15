@@ -44,7 +44,7 @@ The project uses the Pima Indians Diabetes Dataset, which consists of 768 instan
 The target variable (Outcome) indicates whether the individual has diabetes (1) or not (0).
 
 ## Demo
-![](https://github.com/saikumarpeeka/Diabetes-Prediction/blob/main/Project%20Files%2FDiabetes-Prediction.gif)
+<img src="https://github.com/saikumarpeeka/Diabetes-Prediction/blob/main/Project%20Files%2FDiabetes-Prediction.gif" width="300">
 
 # Model Implementation
 
