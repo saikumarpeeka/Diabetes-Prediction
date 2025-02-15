@@ -48,28 +48,28 @@ The target variable (Outcome) indicates whether the individual has diabetes (1) 
 
 ## Data Preprocessing
 
-### 1.Label Encoding: Applied to categorical columns.
+1.Label Encoding: Applied to categorical columns.
 
-### 2.Feature Scaling: Used StandardScaler to normalize the features for training.
+2.Feature Scaling: Used StandardScaler to normalize the features for training.
 
-### 3.Training and Testing Split: Divided the data into 80% training and 20% testing using train_test_split.
+3.Training and Testing Split: Divided the data into 80% training and 20% testing using train_test_split.
 
 ## Model Architecture
 
-### A Fully Connected Neural Network (ANN) was used to classify the data:
+A Fully Connected Neural Network (ANN) was used to classify the data:
 
-#### Input Layer: 6 neurons with ReLU activation.
+Input Layer: 6 neurons with ReLU activation.
 
-#### Hidden Layer: 1 hidden layer with 6 neurons, ReLU activation.
+Hidden Layer: 1 hidden layer with 6 neurons, ReLU activation.
 
-#### Output Layer: 1 neuron with Sigmoid activation for binary classification.
+Output Layer: 1 neuron with Sigmoid activation for binary classification.
 
 ## Model Compilation
 
-#### Optimizer: Adam optimizer
-#### Loss Function: Binary crossentropy (for binary classification)
-#### Metric: Accuracy
-#### The model was trained for 100 epochs using the training data.
+Optimizer: Adam optimizer
+Loss Function: Binary crossentropy (for binary classification)
+Metric: Accuracy
+The model was trained for 100 epochs using the training data.
 
 # Results
 
@@ -127,7 +127,7 @@ After training for 100 epochs, the model achieved an accuracy rate of 98.86%, in
 
 ### This project is licensed under the MIT License.
 
-# Acknowledgments
+# Acknowledgment
 
 ### Pima Indians Diabetes Dataset: Source dataset used for training and evaluation.
 
