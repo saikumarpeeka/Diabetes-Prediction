@@ -48,9 +48,11 @@ The target variable (Outcome) indicates whether the individual has diabetes (1) 
 
 ## Data Preprocessing
 
-1.Label Encoding: Applied to categorical columns.
-2.Feature Scaling: Used StandardScaler to normalize the features for training.
-3.Training and Testing Split: Divided the data into 80% training and 20% testing using train_test_split.
+### 1.Label Encoding: Applied to categorical columns.
+
+### 2.Feature Scaling: Used StandardScaler to normalize the features for training.
+
+### 3.Training and Testing Split: Divided the data into 80% training and 20% testing using train_test_split.
 
 ## Model Architecture
 
